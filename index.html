@@ -1,59 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>K N Electronic and Electrical</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>K N Electronic and Electrical</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
 </head>
-<body class="bg-gray-50 p-8" style="background-image: url('bg.jpg');">
+<body class="bg-gray-100">
+  <!-- Header Section with Logo -->
+  <header class="bg-blue-600 text-white py-6 relative">
+    <!-- Logo Container -->
+    <div class="absolute left-4 top-4">
+      <img src="logo1.jpg" alt="Logo" class="h-20">
+    </div>
 
-    <header class="bg-blue-700 text-white py-6 rounded" >
-       <div class="container mx-auto text-center">
-            <h1 class="text-4xl font-bold">K N Electronic and Electrical</h1>
-           
-<p class="mt-2">Your trusted partner for reliable electronic and electrical solutions!</p>
+    <div class="container mx-auto px-4 text-center">
+      <h1 class="text-4xl font-bold">Welcome to K N Electronic and Electrical</h1>
+      <p class="text-lg mt-2">Your trusted partner for reliable electronic and electrical solutions!</p>
+      <a href="tel:+94740449707" class="mt-4 inline-block bg-red-600 text-white px-6 py-3 rounded-lg hover:bg-red-700 transition duration-300">
+        📞 Call Us: +94 74 044 9707
+      </a>
+    </div>
+  </header>
+
+  <!-- About Us Section -->
+  <section class="py-12">
+    <div class="container mx-auto px-4">
+      <div class="grid md:grid-cols-2 gap-8 items-center">
+        <div>
+          <h2 class="text-3xl font-bold text-blue-600 mb-4 flex items-center">
+            <img src="https://img.icons8.com/ios-filled/50/000000/about.png" alt="About Us Icon" class="w-8 h-8 mr-2">
+            Who We Are
+          </h2>
+          <p class="text-gray-700 leading-relaxed">
+            At K N Electronic and Electrical, we specialize in providing top-notch services for all your electronic and electrical needs. With a focus on quality, efficiency, and customer satisfaction, we are committed to keeping your devices and systems running smoothly.
+          </p>
         </div>
-    </header>
-
-    <main class="container mx-auto my-12 bg-white p-8 rounded shadow">
-        <section id="who-we-are" class="mb-12">
-            <h2 class="text-3xl font-semibold mb-6">Who We Are</h2>
-            <p class="text-lg">At K N Electronic and Electrical, we specialize in providing top-notch services for all your electronic and electrical needs. With a focus on quality, efficiency, and customer satisfaction, we are committed to keeping your devices and systems running smoothly.</p>
-        </section>
-
-        <section id="our-services" class="mb-12">
-            <h2 class="text-3xl font-semibold mb-6">Our Services</h2>
-            <ul class="list-disc list-inside space-y-2">
-                <li><strong>New Installations:</strong> Expert installation of electrical and electronic devices for homes, offices, and industries.</li>
-                <li><strong>Repairs:</strong> Quick and reliable repairs for faulty or damaged electronic and electrical equipment.</li>
-                <li><strong>Maintenance Services:</strong> Regular maintenance to ensure your systems are safe, efficient, and functioning at their best.</li>
-            </ul>
-        </section>
-
-        <section id="why-choose-us" class="mb-12">
-            <h2 class="text-3xl font-semibold mb-6">Why Choose Us?</h2>
-            <ul class="list-disc list-inside space-y-2">
-                <li>Skilled professionals with years of experience.</li>
-                <li>Affordable and transparent pricing.</li>
-                <li>Prompt and reliable service.</li>
-                <li>Commitment to customer satisfaction.</li>
-            </ul>
-        </section>
-
-        <section id="get-in-touch" class="mb-12">
-            <h2 class="text-3xl font-semibold mb-6">Get in Touch</h2>
-            <p class="text-lg mb-2"><span class="font-bold">📍 Address:</span> 569, Walpola Road, Ragama, Sri Lanka</p>
-            <p class="text-lg mb-2"><span class="font-bold">📞 Contact Number:</span> <a href="tel:+94740449707" class="text-blue-700">+94 74 044 9707</a></p>
-            <p class="text-lg"><span class="font-bold">📧 Email:</span> <a href="mailto:knelc.electronic@gmail.com" class="text-blue-700">knelc.electronic@gmail.com</a></p>
-        </section>
-    </main>
-
-    <footer class="bg-blue-700 text-white py-6 rounded mt-12">
-        <div class="container mx-auto text-center">
-            <p>&copy; 2024 K N Electronic and Electrical. All rights reserved.</p>
+        <div>
+          <img src="image1.jpg" alt="About Us" class="rounded-lg shadow-lg">
         </div>
-    </footer>
+      </div>
+    </div>
+  </section>
 
+  <!-- Services Section -->
+  <section class="bg-white py-12">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-blue-600 text-center mb-8 flex items-center justify-center">
+        <img src="https://img.icons8.com/ios-filled/50/000000/services.png" alt="Services Icon" class="w-8 h-8 mr-2">
+        Our Services
+      </h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <!-- Service 1 -->
+        <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold text-blue-600 mb-2 flex items-center">
+            <img src="new.png" alt="Installation Icon" class="w-6 h-6 mr-2">
+            New Installations
+          </h3>
+          <p class="text-gray-700">Expert installation of electrical and electronic devices for homes, offices, and industries.</p>
+        </div>
+        <!-- Service 2 -->
+        <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold text-blue-600 mb-2 flex items-center">
+            <img src="https://img.icons8.com/ios-filled/50/000000/maintenance.png" alt="Repairs Icon" class="w-6 h-6 mr-2">
+            Repairs
+          </h3>
+          <p class="text-gray-700">Quick and reliable repairs for faulty or damaged electronic and electrical equipment.</p>
+        </div>
+        <!-- Service 3 -->
+        <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold text-blue-600 mb-2 flex items-center">
+            <img src="https://img.icons8.com/ios-filled/50/000000/maintenance.png" alt="Maintenance Icon" class="w-6 h-6 mr-2">
+            Maintenance Services
+          </h3>
+          <p class="text-gray-700">Regular maintenance to ensure your systems are safe, efficient, and functioning at their best.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us Section -->
+  <section class="py-12">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-blue-600 text-center mb-8 flex items-center justify-center">
+        <img src="why.png" alt="Why Choose Us Icon" class="w-8 h-8 mr-2">
+        Why Choose Us?
+      </h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="text-center">
+          <h3 class="text-xl font-semibold text-blue-600 mb-2">Skilled Professionals</h3>
+          <p class="text-gray-700">Years of experience in the industry.</p>
+        </div>
+        <div class="text-center">
+          <h3 class="text-xl font-semibold text-blue-600 mb-2">Affordable Pricing</h3>
+          <p class="text-gray-700">Transparent and competitive pricing.</p>
+        </div>
+        <div class="text-center">
+          <h3 class="text-xl font-semibold text-blue-600 mb-2">Prompt Service</h3>
+          <p class="text-gray-700">Quick and reliable solutions.</p>
+        </div>
+        <div class="text-center">
+          <h3 class="text-xl font-semibold text-blue-600 mb-2">Customer Satisfaction</h3>
+          <p class="text-gray-700">We prioritize your satisfaction.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="bg-blue-600 text-white py-12">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-8 flex items-center justify-center">
+        <img src="https://img.icons8.com/ios-filled/50/ffffff/contact-card.png" alt="Contact Icon" class="w-8 h-8 mr-2">
+        Get in Touch
+      </h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div>
+          <p class="text-lg mb-4">📍 Address: 569, Walpola Road, Ragama, Sri Lanka</p>
+          <p class="text-lg mb-4">📞 Contact Number: +94 74 044 9707</p>
+          <p class="text-lg mb-4">📧 Email: knelc.electronic@gmail.com</p>
+        </div>
+        <div>
+          <form action="mailto:knelc.electronic@gmail.com" method="post" enctype="text/plain" class="bg-white p-6 rounded-lg shadow-md">
+            <div class="mb-4">
+              <input type="text" name="name" placeholder="Your Name" class="w-full p-2 border border-gray-300 rounded-lg text-black" required>
+            </div>
+            <div class="mb-4">
+              <input type="email" name="email" placeholder="Your Email" class="w-full p-2 border border-gray-300 rounded-lg text-black" required>
+            </div>
+            <div class="mb-4">
+              <textarea name="message" placeholder="Your Message" class="w-full p-2 border border-gray-300 rounded-lg text-black" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="bg-red-600 text-white px-6 py-2 rounded-lg hover:bg-red-700 transition duration-300">
+              Send Message
+            </button>
+          </form>        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="container mx-auto px-4 text-center">
+      <p>&copy; 2023 K N Electronic and Electrical. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
